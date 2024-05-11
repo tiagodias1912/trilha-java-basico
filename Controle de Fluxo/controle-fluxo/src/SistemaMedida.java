@@ -12,7 +12,7 @@ public class SistemaMedida {
 
         String sigla = "";
 
-       System.out.println("Entre com uma Letra");
+       System.out.println("\nEntre com uma Letra");
         sigla = scanner.next().toUpperCase();
 
             switch (sigla) {
