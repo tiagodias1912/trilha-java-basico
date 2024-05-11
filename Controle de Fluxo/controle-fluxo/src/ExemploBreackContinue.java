@@ -1,12 +1,13 @@
 public class ExemploBreackContinue {
     
     public static void main(String[] args) {
-        boolean condicao = false;
+        for(int numero =1; numero <=50; numero++){
+            if (numero == 3)
+            
+                continue;
+                    
 
-        while(condicao){
-            System.out.println("executou ... ");
+            System.out.println(numero);
         }
     }
-
-
 }
