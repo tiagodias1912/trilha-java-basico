@@ -14,19 +14,19 @@ public class CaixaEletronico {///inicio programa
                          valorSolicitado = scanner.nextInt();
 
  
-        String resultado = saldo == valorSolicitado ? "Seu Saldo e 0"  : saldo <= valorSolicitado ?  "Saldo Insuficiente Seu saldo e...." + saldo : "Saque Realizado com Sucesso";
-        System.out.println(resultado);
+        //String resultado = saldo == valorSolicitado ? "Seu Saldo e 0"  : saldo <= valorSolicitado ?  "Saldo Insuficiente Seu saldo e...." + saldo : "Saque Realizado com Sucesso";
+        //System.out.println(resultado);
 
-        //if(valorSolicitado < saldo){//inicio if
-            //System.out.println("Saque Realizado com Sucesso");
+        if(valorSolicitado < saldo){//inicio if
+            System.out.println("Saque Realizado com Sucesso");
  
-        //}//fim do if
+        }//fim do if
 
-        ///else if (saldo == valorSolicitado  )//um else fica dentro do if, caso seja mais de um sai do if{}&& saldo == valorSolicitado
-           // System.out.println("Seu Saldo final e 0");
-       // else
+        else if (saldo == valorSolicitado  )//um else fica dentro do if, caso seja mais de um sai do if{}&& saldo == valorSolicitado
+            System.out.println("Seu Saldo final e 0");
+        else
 
-            //System.out.println("\n Saldo Insuficiente Seu saldo e...." + saldo);
+            System.out.println("\n Saldo Insuficiente Seu saldo e...." + saldo);
 
     }//fim clase main
 }//fim programa
